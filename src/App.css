@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+:root {
+  --primary-white: #fff;
+  --primary-orange: #f9ab00;
+  --primary-dark: rgba(0, 0, 0, 0);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
+.about-us-p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+.nikotin-alert {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ef4035;
+}
+
+.under-rubrik {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.taste-li {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 3px;
+  font-size: 16px;
+
+}
+
+.taste-span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.all-vape-img {
+  width: 80%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.dot {
+  height: 7px;
+  width: 7px;
+  background-color: rgb(204, 190, 220);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-title {
+  height: 20px;
+  width: 20px;
+  background-color: rgb(204, 190, 220);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.h1-title {
+
+  font-size: 20px;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/******************NAVBAR****************/
+
+
+.logo {
+  width: 8rem;
+}
+
+/******* MENU LINKS***************/
+nav a.nav-link {
+  letter-spacing: 0.0374rem;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav li>a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: red;
+  border-top: 0.1875rem solid var(--primary-dark);
+}
+
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 9rem !important;
+
+}
+
+.navbar-brand img {
+  margin-top: 15px;
+}
+
+.navbar-nav>li>a.active,
+.navbar-nav>li>a.active:fokus {
+  border-top: 0.1875rem solid var(--primary-orange);
+}
+
+.navbar-nav>li>a.hover {
+  border-top: 0.1875rem solid var(--primary-orange);
+}
+
+.navbar {
+  background-color: #ffffff !important;
+}
+
+
+/*************************HEADER****************************************/
+
+.banner {
+
+  background-color: rgb(204, 190, 220);
+  width: 100%;
+  padding: 2em 0;
+}
+
+.row {
+  align-items: center;
+}
+
+.header-title {
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px #7c7c7c;
+}
+
+.header-p {
+  color: rgb(255, 255, 255);
+}
+
+.but {
+  font-family: "Montserrat", sans-serif;
+  background-color: #E8FC56;
+
+  color: black;
+  padding: 10px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 30px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.but:hover {
+  background-color: white;
+  color: black;
+
+}
+
+.but-2 {
+  font-family: "Montserrat", sans-serif;
+  border: 2px solid #E8FC56;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 30px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.but-2:hover {
+  background-color: black;
+  border: none;
+  color: white;
+
+}
+
+@media screen and (max-width: 567px) {
+  .banner {
+    text-align: center;
+  }
+}
+
+/************************************CARD*****************************/
+
+.card-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  color: black;
+}
+
+.card-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  color: black;
+}
+
+.card{
+  margin-bottom: 10px;
+}
+/***************************PARTNERS***********************************/
+
+.partners-img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+/**********************************ABOUT******************************/
+.geeks {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+
+}
+
+.img-hover-background {
+  background-color: rgb(204, 190, 220);
+  opacity: 0.7;
+  border-radius: 20px;
+
+}
+
+.geeks img {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+
+.geeks:hover img {
+  transform: scale(1.5);
+}
+
+.big-text {
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+}
+
+.icon-text {
+  background-color: #E8FC56;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+
+/************************OURTASTE*****************/
+
+
+
+.collapse-btn {
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+  border: 2px solid black;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 30px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+
+}
+
+.collapse-btn:hover {
+  color: #E8FC56;
+}
+
+.spec-ing {
+  font-size: 18px;
+}
