@@ -19,16 +19,13 @@ export const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navmenu">
                 <ul className="navbar-nav ms-auto">
                 <li className="nav-item">
-                        <a href="#products" className="nav-link" to="products">OM OSS</a>
+                        <a href="#omoss" className="nav-link" to="products">OM OSS</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#products" className="nav-link" to="products">PRODUKTER</a>
+                        <a href="#services" className="nav-link">Våra smaker</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#services" className="nav-link">Våra Samker</a>
-                    </li>
-                    <li className="nav-item">
-                        <a href="#contact" className="nav-link">KONTAKT</a>
+                        <a href="#kontakt" className="nav-link">KONTAKT</a>
                     </li>
                 </ul>
             </div>

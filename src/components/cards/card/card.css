@@ -1,0 +1,129 @@
+.card-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+
+}
+
+.card-text {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: black;
+  font-size: 14px;
+}
+
+.card {
+  margin-bottom: 10px;
+  height: 100%;
+  border: none;
+}
+
+.title-under-text {
+  font-weight: bold;
+}
+
+
+.collapse-btn {
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+  border: 2px solid black;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 30px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+
+}
+
+.collapse-btn:hover {
+  color: #B8860B;
+}
+
+.spec-ing {
+  font-size: 18px;
+}
+
+.h1-title {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.geeks {
+
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.geeks img {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+
+.geeks:hover img {
+  transform: scale(1.5);
+}
+
+.peach-ice {
+  color: rgb(222, 109, 188);
+}
+
+.strawberry-ly {
+  color: rgb(165, 43, 88);
+}
+
+.grape-straw {
+  color: #854219;
+}
+
+.mango {
+  color: #cf8e0c;
+}
+
+.blood-orange {
+  color: #87271a;
+}
+
+.grape-para {
+  color: rgb(146, 59, 120);
+}
+
+.blue-rasp{
+  color: rgb(101, 101, 215);
+}
+
+.lush {
+  color: rgb(65, 163, 66);
+}
+
+.apple {
+  color:rgb(35, 116, 36);
+}
+.mint {
+  color:rgb(42, 167, 164);
+}
+
+.cola {
+  color: #6d3716;
+}
+
+.straw-apple {
+  color: rgb(48, 122, 49);
+}
+
+.guava {
+  color:rgb(233, 123, 123);
+}
+
+.tobacco {
+  color:rgb(52, 50, 50);
+}
+
+.cocktail {
+  color:rgb(124, 72, 108);
+}
