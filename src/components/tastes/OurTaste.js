@@ -1,7 +1,11 @@
 import React from "react";
-import logo from "../assets/logo.png";
-import allVape from "../assets/all-vape.png";
-import allVape2 from "../assets/all-vape2.png";
+import logo from "../../assets/logo.png";
+import allVape from "../../assets/all-vape.png";
+import allVape2 from "../../assets/all-vape2.png";
+
+import blueberryRasp from "../../assets/blueberry-raspberry.png";
+import { Taste } from "./taste/Taste";
+
 
 export const OurTaste = () => {
 
@@ -27,9 +31,11 @@ export const OurTaste = () => {
           <h1 className="big-text text-center">15 smaker av högsta kunglig premium kvalité</h1>
           <div className="row">
             <div className="col-md-6 mt-3 text-center">
+
+
               <ul class="list-group">
                 <li class="list-group-item"><a type="button" class="" data-bs-toggle="modal" data-bs-target="#myModal">
-                Blueberry Raspberry
+                  Blueberry Raspberry
                 </a></li>
                 <li class="list-group-item">Ice Mango</li>
                 <li class="list-group-item">Grapefruit Strawberry</li>
@@ -67,27 +73,14 @@ export const OurTaste = () => {
 
 
 
-      <div class="modal fade" id="myModal">
-        <div class="modal-dialog">
-          <div class="modal-content">
-
-
-            <div class="modal-header">
-              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-            </div>
-
-            <div class="modal-body">
-             <img src={allVape} alt="bild" className="img-fluid" />
-            </div>
-
-
-            <div class="modal-footer">
-              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-            </div>
-
-          </div>
-        </div>
-      </div>
+      <Taste
+        imgUrl={"blueberry-raspberry"}
+        title={"blueberry-raspberry"}
+      ></Taste>
+      <Taste
+        imgUrl={"cool-mint"}
+        title={"cool-mint"}
+      ></Taste>
     </div>
   );
 };
