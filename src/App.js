@@ -10,6 +10,7 @@ import { Benefit } from "./components/benefits/Benefit";
 
 import peachIce from "../src/assets/peach-ice.png";
 import { Footer } from "./components/footer/Footer";
+import { ExportPdf } from "./components/pdfExport/ExportPdf";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <About />
      
       <OurTaste />
+      <ExportPdf />
 
       <Cards />
       <ContactForm />
