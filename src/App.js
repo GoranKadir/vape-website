@@ -1,7 +1,7 @@
 import "./App.css";
 import { About } from "./components/About";
 import { Header } from "./components/headers/Header";
-import { Navbar } from "./components/Navbar";
+import { Navbar } from "./components/navbars/Navbar";
 import { Partners } from "./components/Partners";
 import { OurTaste } from "./components/tastes/OurTaste";
 import { Cards } from "./components/cards/Cards.js";

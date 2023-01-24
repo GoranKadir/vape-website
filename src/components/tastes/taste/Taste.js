@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-export const Taste = ({ imgUrl, title}) => {
+export const Taste = ({ imgUrl, title, id}) => {
     const [img, setImg] = useState();
 
     useEffect(() => {
@@ -10,7 +10,7 @@ export const Taste = ({ imgUrl, title}) => {
     }, []);
 
     return (
-        <div class="modal fade" id="myModal">
+        <div class="modal fade" id={id}>
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">

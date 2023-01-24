@@ -70,6 +70,9 @@ export const Cards = () => {
               <p>
                 <span className="taste-span"> Puffs: </span> Aprox 800
               </p>
+              <p>
+                <span className="taste-span"> Mesh coil</span>
+              </p>
             </div>
           </div>
           <div className="col-md-6 mt-3">

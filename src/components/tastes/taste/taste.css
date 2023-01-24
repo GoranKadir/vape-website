@@ -1,0 +1,26 @@
+.modal-title {
+    text-align: center !important;
+    font-weight: bold;
+}
+
+.list-group-item a {
+    color: black;
+    text-decoration: none;
+}
+
+.list-group-item .list-group-item:hover {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.list-group-item a:hover {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.list-group-item a:hover {
+    color: white;
+    text-decoration: none;
+}

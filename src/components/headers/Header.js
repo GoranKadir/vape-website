@@ -11,7 +11,7 @@ export const Header = () => {
 
                 <img src={logo} alt="bild" className='kings-logo' />
                 <h1 className='kings-text'>KINGS NORDIC</h1>
-                <h3>SWEDEN, STOCKHOLM</h3>
+                <h3 className='kings-text'>SWEDEN, STOCKHOLM</h3>
             </div>
         </section>
     )
