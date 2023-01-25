@@ -10,13 +10,14 @@ import { Benefit } from "./components/benefits/Benefit";
 
 import peachIce from "../src/assets/peach-ice.png";
 import { Footer } from "./components/footer/Footer";
+import { ScrollButton } from "./components/scrollButton/ScrollButton";
 
 function App() {
   return (
     <>
    
       <Navbar />
-      <Header />
+      {/* <Header /> */}
       <Partners />
       <About />
      
@@ -25,6 +26,7 @@ function App() {
 
       <Cards />
       <ContactForm />
+      <ScrollButton />
       <div style={{ maxWidth: 1200, marginLeft: 'auto', marginRight: 'auto', marginTop: 64 }}>
             {/* <Benefit
                 show={2}

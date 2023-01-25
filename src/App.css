@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 
 :root {
   --primary-white: #fff;
@@ -11,135 +13,20 @@
 
 body {
   background-color: rgb(255, 255, 255);
-  font-family: "Montserrat", sans-serif;
-}
-
-.title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-  text-transform: uppercase;
-
-}
-
-
-.nikotin-alert {
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  font-weight: bold;
-  color: #ef4035;
-}
-
-.under-rubrik {
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.taste-li {
-  font-family: "Montserrat", sans-serif;
-  margin-top: 3px;
-  font-size: 16px;
-
-}
-
-.taste-span {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-}
-
-.all-vape-img {
-  width: 100%;
-  height: 100%;
-}
-
-ul {
-  list-style: none;
-}
-
-.dot {
-  height: 7px;
-  width: 7px;
-  background-color: rgb(204, 190, 220);
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.dot-title {
-  height: 20px;
-  width: 20px;
-  background-color: rgb(204, 190, 220);
-  border-radius: 50%;
-  display: inline-block;
+  font-family: "Playfair Display", sans-serif;
 }
 
 .h1-title {
-  font-size: 30px;
-  color: black;
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 50px;
 }
 
-/******************NAVBAR****************/
-
-
-.logo {
-  width: 8rem;
+p {
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
 }
-
-/******* MENU LINKS***************/
-nav a.nav-link {
-  letter-spacing: 0.0374rem;
-  cursor: pointer;
-}
-
-nav ul li {
-  text-transform: uppercase;
-}
-
-.navbar-nav li>a {
-  margin-right: 0.75rem;
-  margin-left: 0.75rem;
-  color: red;
-  border-top: 0.1875rem solid var(--primary-dark);
-}
-
-.navbar-brand {
-  max-width: 17.25rem;
-  padding: 0 !important;
-  height: 9rem !important;
-
-}
-
-.navbar-brand img {
-  margin-top: 15px;
-}
-
-.navbar-nav>li>a.active,
-.navbar-nav>li>a.active:fokus {
-  border-top: 0.1875rem solid var(--primary-orange);
-}
-
-.navbar-nav>li>a.hover {
-  border-top: 0.1875rem solid var(--primary-orange);
-}
-
-.navbar {
-  background-color: #ffffff !important;
-}
-
-
-/*************************HEADER****************************************/
-
-
-/************************************CARD*****************************/
-
-
-/***************************PARTNERS***********************************/
-
-.partners-img {
-  width: 100%;
-  height: auto;
+span {
+  font-family: "Mulish", sans-serif;
 }
 
 
@@ -162,8 +49,8 @@ nav ul li {
 }
 
 .big-text {
-  font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 25px;
   font-weight: bold;
   border: none;
 }

@@ -26,9 +26,10 @@ export const About = () => {
             byta från rökning till vaping är denna bekväma, lättanvända
             engångsvape kanske något för dig.
           </p>
-          <p>
+          
             <h1 className="text-center big-text">Mesh coil</h1>
             <p className="text-center">Våra vapes använder sig utav Mesh coil</p>
+            <p className="text-center">
             En Mesh coil är en coil som inte är skapad utav tråd utan kommer i formen utav ett metall nät.
             Nätet är gjort utav metall och principen fungerar så att ju större yta som värms upp desto mer ånga kommer e-cigaretten att producera.
           </p>

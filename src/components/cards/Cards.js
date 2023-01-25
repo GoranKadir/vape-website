@@ -9,7 +9,7 @@ export const Cards = () => {
       <div className="text-center mt-5">
         <h1 className="h1-title text-center mt-5">Våra smaker</h1>
       </div>
-      <p className="text-center title-under-text">
+      <p className="text-center">
         Kings Nordic finns i olika varianter av fruktsorter, mentol, godis eller
         tobak. Välj din egna favorit bland 15 st olika smaker.
       </p>
@@ -39,10 +39,10 @@ export const Cards = () => {
       <div className="collapse mt-5" id="collapseExample">
         <div className="row">
           <div className="title_lines text-center spec-ing">
-            Specifikation & Ingredienser
+
           </div>
           <div className="col-md-6 mt-3">
-            <h1 className="under-rubrik text-center">
+            <h1 className="big-text text-center">
               Nordic Kings Engångs E-Cigg specifikation
             </h1>
             <div className="mt-3 text-center">
@@ -76,7 +76,7 @@ export const Cards = () => {
             </div>
           </div>
           <div className="col-md-6 mt-3">
-            <h1 className="under-rubrik text-center">Ingredients</h1>
+            <h1 className="big-text text-center">Ingredients</h1>
 
             <div className="mt-3 text-center">
               <p>Vegetable</p>
@@ -194,134 +194,6 @@ export const Cards = () => {
 
       </div>
 
-      {/* <div className='row'>
-                <div className='col-md-3'>
-                    <div className="card">
-                        <image className="card-image-top" src={iceMango} alt="Card image" />
-                        <div className="card-image-overlay">
-                           
-                            <p className="card-text text-center">Smak av vattenmelon med cooling.</p>
-                        </div>
-                    </div>
-                </div>
-                <div className='col-md-3'>
-                    <div className="card">
-                        <image className="card-image-top" src={lush} alt="Card image" />
-                        <div className="card-image-overlay">
-                            <h4 className="card-image"></h4>
-                            <h2 className="card-text text-center">Some example text.</h2>
-                        </div>
-                    </div>
-                </div>
-                <div className='col-md-3'>
-                    <div className="card">
-                        <image className="card-image-top" src={cola} alt="Card image" />
-                        <div className="card-image-overlay">
-                            <h4 className="card-image">Jo</h4>
-                            <h2 className="card-text text-center">Some example text.</h2>
-                        </div>
-                    </div>
-                </div>
-                <div className='col-md-3'>
-                    <div className="card">
-                        <image className="card-image-top" src={guavaIce} alt="Card image" />
-                        <div className="card-image-overlay">
-                            <h4 className="card-image">Jo</h4>
-                            <h2 className="card-text text-center">Some example text.</h2>
-                        </div>
-                    </div>
-                </div>
-                <div className='col-md-3'>
-                    <div className="card">
-                        <image className="card-image-top" src={bloodOrange} alt="Card image" />
-                        <div className="card-image-overlay">
-                            <h4 className="card-image">Jo</h4>
-                            <h2 className="card-text text-center">Some example text.</h2>
-                        </div>
-                    </div>
-                </div>
-                <div className='col-md-3'>
-                    <div className="card">
-                        <image className="card-image-top" src={grapeParadise} alt="Card image" />
-                        <div className="card-image-overlay">
-                            <h4 className="card-image">Jo</h4>
-                            <h2 className="card-text text-center">Some example text.</h2>
-                        </div>
-                    </div>
-                </div>
-                <div className='col-md-3'>
-                    <div className="card">
-                        <image className="card-image-top" src={pureTobacco} alt="Card image" />
-                        <div className="card-image-overlay">
-                            <h4 className="card-image">Jo</h4>
-                            <h2 className="card-text text-center">Some example text.</h2>
-                        </div>
-                    </div>
-                </div>
-                <div className='col-md-3'>
-                    <div className="card">
-                        <image className="card-image-top" src={peachIce} alt="Card image" />
-                        <div className="card-image-overlay">
-                            <h4 className="card-image">Jo</h4>
-                            <h2 className="card-text text-center">Some example text.</h2>
-                        </div>
-                    </div>
-                </div>
-                <div className='col-md-3'>
-                    <div className="card">
-                        <image className="card-image-top" src={apple} alt="Card image" />
-                        <div className="card-image-overlay">
-                            <h4 className="card-image">Jo</h4>
-                            <h2 className="card-text text-center">Some example text.</h2>
-                        </div>
-                    </div>
-                </div>
-                <div className='col-md-3'>
-                    <div className="card">
-                        <image className="card-image-top" src={strawberryLychee} alt="Card image" />
-                        <div className="card-image-overlay">
-                            <h4 className="card-image">Jo</h4>
-                            <h2 className="card-text text-center">Some example text.</h2>
-                        </div>
-                    </div>
-                </div>
-                <div className='col-md-3'>
-                    <div className="card">
-                        <image className="card-image-top" src={blueberryRaspberry} alt="Card image" />
-                        <div className="card-image-overlay">
-                            <h4 className="card-image">Jo</h4>
-                            <h2 className="card-text text-center">Some example text.</h2>
-                        </div>
-                    </div>
-                </div>
-                <div className='col-md-3'>
-                    <div className="card">
-                        <image className="card-image-top" src={strawberryApple} alt="Card image" />
-                        <div className="card-image-overlay">
-                            <h4 className="card-image">Jo</h4>
-                            <h2 className="card-text text-center">Some example text.</h2>
-                        </div>
-                    </div>
-                </div>
-                <div className='col-md-3'>
-                    <div className="card">
-                        <image className="card-image-top" src={cocktail} alt="Card image" />
-                        <div className="card-image-overlay">
-                            <h4 className="card-image">Jo</h4>
-                            <h2 className="card-text text-center">Some example text.</h2>
-                        </div>
-                    </div>
-                </div>
-                <div className='col-md-3'>
-                    <div className="card">
-                        <image className="card-image-top" src={mint} alt="Card image" />
-                        <div className="card-image-overlay">
-                            <h4 className="card-image">Jo</h4>
-                            <h2 className="card-text text-center">Some example text.</h2>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
     </div>
   );
 };
