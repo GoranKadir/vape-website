@@ -2,10 +2,20 @@ import React, { useState } from 'react';
 import '../navbars/navbar.scss';
 import { motion, AnimatePresence } from "framer-motion";
 import logo from "../../assets/logo-nobg.png";
+import goldLogo from "../../assets/gold-logo.png";
+import Languageoption from '../../components/language-dropdown'
+import {useTranslation} from 'react-i18next'
+import i18next from "i18next"
 
 
 
 export const Navbar = () => {
+
+    const { t } = useTranslation();
+    const handleClick=(e)=>{
+      i18next.changeLanguage(e.target.value)
+  }
+
     const [open, setOpen] = useState(false);
 
     const isOpen = () => {
@@ -33,6 +43,7 @@ export const Navbar = () => {
         <div className="container-size">
 
             <header>
+            <Languageoption onChange={(e)=> handleClick(e)}/>
                 <div className="menu" onClick={isOpen}>
                     <i className="fa fa-bars" style={{ fontSize: 48 }}></i>
                 </div>
@@ -66,7 +77,7 @@ export const Navbar = () => {
                                     }
                                 }}
                             >
-                                <img src={logo} alt="image" className='logo-img' />
+                                <img src={goldLogo} alt="image" className='logo-img' />
                             </motion.div>
                             <motion.a href="#hem"
                                 onClick={closeMenu}
@@ -82,7 +93,7 @@ export const Navbar = () => {
                                     }
                                 }}
 
-                            >Hem</motion.a>
+                            >{t('home')}</motion.a>
 
                             <motion.a href="#services"
                                 onClick={closeMenu}
@@ -97,7 +108,7 @@ export const Navbar = () => {
                                         delay: .8
                                     }
                                 }}
-                            >Våra smaker
+                            >{t('tast')}
                             </motion.a>
 
                             <motion.a href="#omoss"
@@ -113,7 +124,7 @@ export const Navbar = () => {
                                         delay: .6
                                     }
                                 }}
-                            >Om oss</motion.a>
+                            >{t('about')}</motion.a>
 
                             <motion.a href="#kontakt"
                                 onClick={closeMenu}
@@ -128,7 +139,7 @@ export const Navbar = () => {
                                         delay: .2
                                     }
                                 }}
-                            >Kontakta oss</motion.a>
+                            >{t('contact')}</motion.a>
                         </motion.div>
                     )
                 }
@@ -137,7 +148,7 @@ export const Navbar = () => {
                 <img src={logo} alt="bild" className='kings-logo' />
 
                 <h1 className='kings-text'>KINGS NORDIC</h1>
-                <h3 className='kings-text'>SWEDEN, STOCKHOLM</h3>
+                <h3 className='kings-text'>{t('header-sub')}</h3>
             </div>
         </div>
     );

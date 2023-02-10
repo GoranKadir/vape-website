@@ -11,24 +11,30 @@ import { Benefit } from "./components/benefits/Benefit";
 import peachIce from "../src/assets/peach-ice.png";
 import { Footer } from "./components/footer/Footer";
 import { ScrollButton } from "./components/scrollButton/ScrollButton";
+import Languageoption from './components/language-dropdown.js';
+import { useTranslation } from 'react-i18next';
+import i18next from "i18next";
+
 
 function App() {
-  return (
-    <>
    
-      <Navbar />
-      {/* <Header /> */}
-      <Partners />
-      <About />
-     
-      <OurTaste />
-    
+    return (
+        <>
+            
+            <Navbar />
 
-      <Cards />
-      <ContactForm />
-      <ScrollButton />
-      <div style={{ maxWidth: 1200, marginLeft: 'auto', marginRight: 'auto', marginTop: 64 }}>
-            {/* <Benefit
+            <Partners />
+            <About />
+
+            <Cards />
+            <OurTaste />
+
+
+
+            <ContactForm />
+            <ScrollButton />
+            <div style={{ maxWidth: 1200, marginLeft: 'auto', marginRight: 'auto', marginTop: 64 }}>
+                {/* <Benefit
                 show={2}
             >
                 <div>
@@ -72,10 +78,10 @@ function App() {
                     </div>
                 </div>
             </Benefit> */}
-        </div>
-        <Footer />
-    </>
-  );
+            </div>
+            <Footer />
+        </>
+    );
 }
 
 export default App;

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import "../card/card.css";
 
-export const Card = ({ imgUrl, title, descripton, cssStyle }) => {
+export const Card = ({ imgUrl, title, descripton, cssStyle, cssStyleDesc }) => {
   const [img, setImg] = useState();
 
   useEffect(() => {
@@ -17,7 +17,7 @@ export const Card = ({ imgUrl, title, descripton, cssStyle }) => {
         <img src={img} className="card-img-top" alt="..." />
         <h5 className={cssStyle}>{title}</h5>
         <div className="card-body d-flex flex-column">
-          <p className="card-text mb-4">{descripton}</p>
+          <p className={cssStyleDesc}>{descripton}</p>
         </div>
       </div>
     </div>
