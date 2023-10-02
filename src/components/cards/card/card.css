@@ -1,13 +1,11 @@
-
-
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
 .card-title {
-  font-family: "Mulish", sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-weight: bolder;
-
 }
 
 .card-text {
-  font-family: "Mulish", sans-serif;
+  font-family: "Titillium Web", sans-serif;
   text-align: center;
   color: black;
   font-size: 18px;
@@ -23,9 +21,8 @@
   font-weight: bold;
 }
 
-
 .collapse-btn {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Titillium Web", sans-serif;
   background-color: black;
   border: 2px solid black;
   color: white;
@@ -38,11 +35,10 @@
   text-decoration: none;
   border-radius: 30px;
   font-weight: bold;
-
 }
 
 .collapse-btn:hover {
-  color: #B8860B;
+  color: #b8860b;
 }
 
 .spec-ing {
@@ -52,12 +48,11 @@
 .h1-title {
   font-size: 50px;
   color: rgb(0, 0, 0);
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-weight: bold;
 }
 
 .geeks {
-
   overflow: hidden;
   margin: 0 auto;
 }
@@ -95,7 +90,7 @@
   color: rgb(146, 59, 120);
 }
 
-.blue-rasp{
+.blue-rasp {
   color: rgb(101, 101, 215);
 }
 
@@ -104,10 +99,14 @@
 }
 
 .apple {
-  color:rgb(35, 116, 36);
+  color: rgb(35, 116, 36);
+}
+
+.love66 {
+  color: rgb(208, 28, 31);
 }
 .mint {
-  color:rgb(42, 167, 164);
+  color: rgb(42, 167, 164);
 }
 
 .cola {
@@ -119,13 +118,20 @@
 }
 
 .guava {
-  color:rgb(233, 123, 123);
+  color: rgb(233, 123, 123);
 }
 
 .tobacco {
-  color:rgb(52, 50, 50);
+  color: rgb(52, 50, 50);
 }
 
 .cocktail {
-  color:rgb(124, 72, 108);
+  color: rgb(124, 72, 108);
+}
+
+.brazil {
+  color: green;
+}
+.cuban {
+  color: darkblue;
 }

@@ -1,87 +1,34 @@
 import "./App.css";
+
+import { Homepage } from "./components/homepages/Homepage";
+import ReactGA from "react-ga";
+import { useEffect } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { About } from "./components/About";
-import { Header } from "./components/headers/Header";
-import { Navbar } from "./components/navbars/Navbar";
-import { Partners } from "./components/Partners";
-import { OurTaste } from "./components/tastes/OurTaste";
-import { Cards } from "./components/cards/Cards.js";
+import { Cards } from "./components/cards/Cards";
 import { ContactForm } from "./components/contactForm/ContactForm";
-import { Benefit } from "./components/benefits/Benefit";
+import { OurTaste } from "./components/tastes/OurTaste";
+import { Contact } from "./components/contactForm/Contact";
 
-import peachIce from "../src/assets/peach-ice.png";
-import { Footer } from "./components/footer/Footer";
-import { ScrollButton } from "./components/scrollButton/ScrollButton";
-import Languageoption from './components/language-dropdown.js';
-import { useTranslation } from 'react-i18next';
-import i18next from "i18next";
-
+const TRACKING_ID = "UA-180705802-2"; // OUR_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 
 function App() {
-   
-    return (
-        <>
-            
-            <Navbar />
+  useEffect(() => {
+    ReactGA.pageview("/");
+  }, []);
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="about" element={<About />} />
+        <Route path="tastes" element={<Cards />} />
+        <Route path="ourtastes" element={<OurTaste />} />
 
-            <Partners />
-            <About />
-
-            <Cards />
-            <OurTaste />
-
-
-
-            <ContactForm />
-            <ScrollButton />
-            <div style={{ maxWidth: 1200, marginLeft: 'auto', marginRight: 'auto', marginTop: 64 }}>
-                {/* <Benefit
-                show={2}
-            >
-                <div>
-                    <div style={{padding: 8}}>
-                        <img src={peachIce} alt="placeholder" style={{width: '100%'}} />
-                    </div>
-                </div>
-                <div>
-                    <div style={{padding: 8}}>
-                    <img src={peachIce} alt="placeholder" style={{width: '100%'}} />
-                    </div>
-                </div>
-                <div>
-                    <div style={{padding: 8}}>
-                    <img src={peachIce} alt="placeholder" style={{width: '100%'}} />
-                    </div>
-                </div>
-                <div>
-                    <div style={{padding: 8}}>
-                        <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
-                    </div>
-                </div>
-                <div>
-                    <div style={{padding: 8}}>
-                        <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
-                    </div>
-                </div>
-                <div>
-                    <div style={{padding: 8}}>
-                        <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
-                    </div>
-                </div>
-                <div>
-                    <div style={{padding: 8}}>
-                        <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
-                    </div>
-                </div>
-                <div>
-                    <div style={{padding: 8}}>
-                        <img src="https://via.placeholder.com/300x300" alt="placeholder" style={{width: '100%'}} />
-                    </div>
-                </div>
-            </Benefit> */}
-            </div>
-            <Footer />
-        </>
-    );
+        <Route path="contact" element={<Contact />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;

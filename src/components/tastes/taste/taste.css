@@ -1,92 +1,100 @@
 .modal-title {
-    text-align: center !important;
-    font-weight: bold;
+  text-align: center !important;
+  font-weight: bold;
 }
 
-
-
 a {
-    display: block;
-    padding: 5px;
-    text-decoration: none;
+  display: block;
+  padding: 5px;
+  text-decoration: none;
 }
 
 ul {
-    padding: 0px !important;
-    margin: 0px !important;
-    border: 0px !important;
+  padding: 0px !important;
+  margin: 0px !important;
+  border: 0px !important;
 }
 
-
 .list-group-item {
-    font-weight: bold;
-    color: white;
-    border-radius: 50px !important;
-    margin: 0px;
-    padding: 10px 0px;
-
+  font-weight: bold;
+  color: white;
+  border-radius: 50px !important;
+  margin: 0px;
+  padding: 10px 0px;
+  text-transform: uppercase;
 }
 
 .list-group-item:hover {
-    color: black;
+  color: black;
 }
 
 .peach-ice li {
-    background-color: rgb(222, 109, 188);
+  background-color: rgb(222, 109, 188);
 }
 
 .strawberryLy li {
-    background-color: rgb(165, 43, 88);
+  background-color: rgb(165, 43, 88);
 }
 
 .grape-straw li {
-    background-color: #854219;
+  background-color: #854219;
 }
 
 .mango li {
-    background-color: #cf8e0c;
+  background-color: #cf8e0c;
 }
 
 .bloodOrange li {
-    background-color: #87271a;
+  background-color: #87271a;
 }
 
 .grapeParadise li {
-    background-color: rgb(146, 59, 120);
+  background-color: rgb(146, 59, 120);
 }
 
 .blueRasp li {
-    background-color: rgb(101, 101, 215);
+  background-color: rgb(101, 101, 215);
 }
 
 .lushIce li {
-    background-color: rgb(65, 163, 66);
+  background-color: rgb(65, 163, 66);
 }
 
 .appleIce li {
-    background-color: rgb(35, 116, 36);
+  background-color: rgb(35, 116, 36);
 }
 
 .coolMint li {
-    background-color: rgb(42, 167, 164);
+  background-color: rgb(42, 167, 164);
 }
 
 .iceCola li {
-    background-color: #6d3716;
+  background-color: #6d3716;
 }
 
 .strawApple li {
-    background-color: rgb(48, 122, 49);
+  background-color: rgb(48, 122, 49);
 }
 
 .guavaIce li {
-    background-color: rgb(233, 123, 123);
+  background-color: rgb(233, 123, 123);
 }
 
 .pureTobacco li {
-    background-color: rgb(52, 50, 50);
+  background-color: rgb(52, 50, 50);
 }
 
 .cocktail li {
-    background-color: rgb(124, 72, 108);
+  background-color: rgb(124, 72, 108);
+}
+
+.lollo li {
+  background-color: rgb(208, 28, 31);
+}
+
+.brazil li {
+  background-image: linear-gradient(green, yellow);
+}
+.cuban li {
+  background-image: linear-gradient(blue, red);
 }

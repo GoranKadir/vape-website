@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+select#language {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+  width: 150px;
+  height: 36px;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding-left: 40px;
+  margin: 0;
+}
+select {
+  font-family: "Titillium Web", sans-serif;
+  float: right;
+  margin-left: 50px;
+}
+
+select#language:focus {
+  outline: none;
+  border-color: #0077c0;
+  font-family: "Titillium Web", sans-serif;
+}
+
+select#language::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: "Titillium Web", sans-serif;
+}
+
+select#language option[value="sw"] {
+  font-family: "Titillium Web", sans-serif;
+  background-image: url("https://purecatamphetamine.github.io/country-flag-icons/3x2/SE.svg");
+}
+
+select#language option[value="en"] {
+  font-family: "Titillium Web", sans-serif;
+  background-image: url("https://purecatamphetamine.github.io/country-flag-icons/3x2/GB.svg");
+}
+@media screen and (min-width: 800px) {
+  .topnav-right {
+    position: absolute;
+    right: 50px;
+    width: 200px;
+    height: 120px;
+  }
+}
